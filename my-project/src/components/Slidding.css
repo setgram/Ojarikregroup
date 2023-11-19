@@ -1,0 +1,12 @@
+.splide__arrow {
+  background-color: #ffffff; /* Set the desired background color (white in this example) */
+  color: #ff0000; /* Set the desired text color (red in this example) */
+  opacity: 0.8;
+  border: 3px solid white; /* Adjust the opacity to your preference */
+}
+
+.splide__arrow:hover {
+  background-color: #ffffff; /* Set the desired hover background color */
+  color: #ff0000; /* Set the desired hover text color */
+  opacity: 1; /* Adjust the hover opacity to your preference */
+}
