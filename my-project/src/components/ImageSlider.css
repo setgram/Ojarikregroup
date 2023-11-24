@@ -1,0 +1,21 @@
+@keyframes moveStartToEnd {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.moving-image {
+  animation: moveStartToEnd 20s linear infinite; /* Adjust the duration (20s) as needed */
+  width: 200px; /* Set your preferred width */
+  height: 150px; /* Set your preferred height */
+  margin: 15px; /* Set your preferred margin */
+  flex-shrink: 0;
+}
+
+.moving-image-container {
+  display: flex;
+  overflow: hidden;
+}

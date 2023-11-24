@@ -8,3 +8,9 @@ body {
   background-color: rgb(255, 245, 230);
   font-family: "Poppins", sans-serif;
 }
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}

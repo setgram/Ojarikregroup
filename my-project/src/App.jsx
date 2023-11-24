@@ -6,6 +6,11 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";
 import Categories from "./components/Categories";
+import Footer from "./components/Footer";
+import Appliances from "./pages/Appliances";
+import PowerTools from "./pages/PowerTools";
+import WeldingMachine from "./pages/WeldingMachine";
+import Generators from "./pages/Generators";
 
 function App() {
   return (
@@ -17,7 +22,12 @@ function App() {
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/products" element={<Products />} />
         <Route path="/categories" element={<Categories />} />
+        <Route path="/appliances" element={<Appliances />} />
+        <Route path="/power-tools" element={<PowerTools />} />
+        <Route path="/welding-machine" element={<WeldingMachine />} />
+        <Route path="/generators" element={<Generators />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
