@@ -6,8 +6,10 @@ import { FiFacebook } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
+import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
+  const navigate = useNavigate();
   return (
     <div>
       <footer className="bg-[#100B20] text-white p-16 block lg:flex justify-between text-justify space-y-4 lg:space-y-0">
@@ -32,7 +34,7 @@ export default function Footer() {
           </h1>
           <ul>
             <a href="#">
-              <li>Home</li>
+              <li onClick={() => navigate("/")}>Home</li>
             </a>
             <a href="#">
               <li>Products</li>

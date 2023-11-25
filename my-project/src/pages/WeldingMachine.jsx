@@ -1,8 +1,21 @@
 import React from "react";
 
-import imageone from "../assets/slideeight.jpg";
-import imagetwo from "../assets/slidenine.jpg";
-import imagethree from "../assets/slidesix.jpg";
+import w1 from "../assets/w1.jpg";
+import w2 from "../assets/w2.jpg";
+import w3 from "../assets/w3.jpg";
+import w4 from "../assets/w4.jpg";
+import w5 from "../assets/w5.jpg";
+import w6 from "../assets/w6.jpg";
+import w7 from "../assets/w7.jpg";
+import w8 from "../assets/w8.jpg";
+import w9 from "../assets/w9.jpg";
+import w10 from "../assets/w10.jpg";
+import w11 from "../assets/w11.jpg";
+import w12 from "../assets/w12.jpg";
+import w13 from "../assets/w13.jpg";
+import w14 from "../assets/w14.jpg";
+import w15 from "../assets/w15.jpg";
+import w16 from "../assets/w16.jpg";
 
 import banner from "../assets/bannerone.jpg";
 
@@ -14,72 +27,72 @@ export default function WeldingMachine() {
       </h1>
       <div className="flex space-x-16">
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={imageone} alt="" className="w-full h-full rounded-lg " />
+          <img src={w1} alt="" className="w-full h-full rounded-lg " />
         </div>
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={imagetwo} alt="" className="w-full h-full rounded-lg " />
+          <img src={w2} alt="" className="w-full h-full rounded-lg " />
         </div>
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={imagethree} alt="" className="w-full h-full rounded-lg " />
+          <img src={w3} alt="" className="w-full h-full rounded-lg " />
         </div>
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={imageone} alt="" className="w-full h-full rounded-lg " />
-        </div>
-      </div>
-      <div className="flex space-x-16">
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
+          <img src={w4} alt="" className="w-full h-full rounded-lg " />
         </div>
       </div>
       <div className="flex space-x-16">
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
+          <img src={w5} alt="" className="w-full h-full rounded-lg " />
         </div>
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
+          <img src={w6} alt="" className="w-full h-full rounded-lg " />
         </div>
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
+          <img src={w7} alt="" className="w-full h-full rounded-lg " />
         </div>
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
-        </div>
-      </div>
-      <div className="flex space-x-16">
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
+          <img src={w8} alt="" className="w-full h-full rounded-lg " />
         </div>
       </div>
       <div className="flex space-x-16">
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
+          <img src={w9} alt="" className="w-full h-full rounded-lg " />
         </div>
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
+          <img src={w10} alt="" className="w-full h-full rounded-lg " />
         </div>
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
+          <img src={w11} alt="" className="w-full h-full rounded-lg " />
         </div>
         <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={banner} alt="" className="w-full h-full rounded-lg " />
+          <img src={w12} alt="" className="w-full h-full rounded-lg " />
+        </div>
+      </div>
+      <div className="flex space-x-16">
+        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
+          <img src={w13} alt="" className="w-full h-full rounded-lg " />
+        </div>
+        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
+          <img src={w1} alt="" className="w-full h-full rounded-lg " />
+        </div>
+        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
+          <img src={w7} alt="" className="w-full h-full rounded-lg " />
+        </div>
+        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
+          <img src={w5} alt="" className="w-full h-full rounded-lg " />
+        </div>
+      </div>
+      <div className="flex space-x-16">
+        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
+          <img src={w10} alt="" className="w-full h-full rounded-lg " />
+        </div>
+        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
+          <img src={w3} alt="" className="w-full h-full rounded-lg " />
+        </div>
+        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
+          <img src={w16} alt="" className="w-full h-full rounded-lg " />
+        </div>
+        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
+          <img src={w13} alt="" className="w-full h-full rounded-lg " />
         </div>
       </div>
     </div>
