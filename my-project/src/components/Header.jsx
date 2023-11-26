@@ -1,42 +1,43 @@
-import React from "react";
+// ... (previous imports)
+
+import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import { GiHamburgerMenu, GiCancel } from "react-icons/gi";
 import { IoSearch } from "react-icons/io5";
 import logo from "../assets/logotwo.png";
 import Categories from "./Categories";
-import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { CiMail } from "react-icons/ci";
 import { LuPhone } from "react-icons/lu";
 
 export default function Header() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  function toggleMobileMenu() {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  }
+
+  function closeMobileMenu() {
+    setIsMobileMenuOpen(false);
+  }
+
   const location = useLocation();
   const navigate = useNavigate();
 
   const pathMatchRoute = (route) => {
-    if (route === location.pathname) {
-      return true;
-    }
+    return route === location.pathname;
   };
 
   return (
-    <>
-      <div className="flex mx-auto items-center justify-between max-w-6xl">
+    <div>
+      <div className="flex mx-auto items-center justify-between max-w-6xl p-4">
         <img
           src={logo}
           alt="logo"
           onClick={() => navigate("/")}
           className="cursor-pointer w-52 transition-all ease-in-out hover:transform hover:scale-105"
         />
-        <div className="flex mt-2 mb-2">
-          <input
-            type="text"
-            placeholder="Search Products"
-            className="bg-slate-600 w-96 py-1 px-1 flex-grow text-white outline-none rounded-l"
-          />
-          <button className="bg-yellow-600 px-10 py-2 cursor-pointer rounded-r">
-            <IoSearch />{" "}
-          </button>
-        </div>
-        <p className="text-slate-900 gap-3 flex items-center">
+
+        <p className="hidden lg:flex text-slate-900 gap-3 items-center">
           <CiMail /> elvisojarikre21@gmail.com <LuPhone />
           <span className="text-yellow-600">+2348107193064</span>
         </p>
@@ -46,45 +47,80 @@ export default function Header() {
           <span className="flex mx-auto items-center">
             <Categories />
           </span>
-          <ul className="flex space-x-12 cursor-pointer">
-            <li
-              className={`transition duration-150 ease-in-out cursor-pointer text-sm font-semibold border-b-2 border-b-transparent hover:text-green-950 ${
-                pathMatchRoute("/") && "border-b-slate-500 text-green-950"
-              }`}
-              onClick={() => navigate("/")}
+
+          <div className="md:hidden">
+            <button
+              onClick={toggleMobileMenu}
+              className="text-white focus:outline-none"
             >
-              Home
-            </li>
-            <li
-              className={`hover:text-green-950 transition duration-150 ease-in-out cursor-pointer text-sm font-semibold border-b-2 border-b-transparent ${
-                pathMatchRoute("/about-us") &&
-                "border-b-slate-500 text-green-950"
+              {isMobileMenuOpen ? (
+                <GiCancel className="h-6 w-6" />
+              ) : (
+                <GiHamburgerMenu className="h-6 w-6" />
+              )}
+            </button>
+          </div>
+          <div
+            className={`md:flex items-center space-x-5 ${
+              isMobileMenuOpen ? "flex-col" : "hidden"
+            } md:absolute top-0 right-0 md:static bg-yellow-600 py-3 md:bg-transparent`}
+          >
+            <ul
+              className={`flex flex-col md:flex-row space-x-5 cursor-pointer items-center mt-3 mr-4 ${
+                isMobileMenuOpen ? "md:items-start" : ""
               }`}
-              onClick={() => navigate("/about-us")}
             >
-              About Us
-            </li>
-            <li
-              className={`hover:text-green-950 transition duration-150 ease-in-out cursor-pointer text-sm font-semibold border-b-2 border-b-transparent ${
-                pathMatchRoute("/products") &&
-                "border-b-slate-500 text-green-950"
-              }`}
-              onClick={() => navigate("/products")}
-            >
-              Products
-            </li>
-            <li
-              className={`hover:text-green-950 transition duration-150 ease-in-out cursor-pointer text-sm font-semibold border-b-2 border-b-transparent ${
-                pathMatchRoute("/contact-us") &&
-                "border-b-slate-500 text-green-950"
-              }`}
-              onClick={() => navigate("/contact-us")}
-            >
-              Contact Us
-            </li>
-          </ul>
+              <li
+                className={`transition duration-150 ease-in-out cursor-pointer text-sm font-semibold border-b-2 border-b-transparent hover:text-green-950 ${
+                  pathMatchRoute("/") && "border-b-slate-500 text-green-950"
+                }`}
+                onClick={() => {
+                  navigate("/");
+                  closeMobileMenu();
+                }}
+              >
+                Home
+              </li>
+              <li
+                className={`hover:text-green-950 transition duration-150 ease-in-out cursor-pointer text-sm font-semibold border-b-2 border-b-transparent ${
+                  pathMatchRoute("/about-us") &&
+                  "border-b-slate-500 text-green-950"
+                }`}
+                onClick={() => {
+                  navigate("/about-us");
+                  closeMobileMenu();
+                }}
+              >
+                About Us
+              </li>
+              <li
+                className={`hover:text-green-950 transition duration-150 ease-in-out cursor-pointer text-sm font-semibold border-b-2 border-b-transparent ${
+                  pathMatchRoute("/products") &&
+                  "border-b-slate-500 text-green-950"
+                }`}
+                onClick={() => {
+                  navigate("/products");
+                  closeMobileMenu();
+                }}
+              >
+                Products
+              </li>
+              <li
+                className={`hover:text-green-950 transition duration-150 ease-in-out cursor-pointer text-sm font-semibold border-b-2 border-b-transparent ${
+                  pathMatchRoute("/contact-us") &&
+                  "border-b-slate-500 text-green-950"
+                }`}
+                onClick={() => {
+                  navigate("/contact-us");
+                  closeMobileMenu();
+                }}
+              >
+                Contact Us
+              </li>
+            </ul>
+          </div>
         </header>
       </div>
-    </>
+    </div>
   );
 }

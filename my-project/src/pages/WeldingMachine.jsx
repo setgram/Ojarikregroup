@@ -25,74 +25,76 @@ export default function WeldingMachine() {
       <h1 className="text-center text-2xl capitalize mt-5 mb-5 font-semibold">
         Welding Machines
       </h1>
-      <div className="flex space-x-16">
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w1} alt="" className="w-full h-full rounded-lg " />
+      <div className="flex flex-wrap">
+        <div className="flex space-x-16 flex-wrap">
+          <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w1} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w2} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w3} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w4} alt="" className="w-full h-full rounded-lg " />
+          </div>
         </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w2} alt="" className="w-full h-full rounded-lg " />
+        <div className="flex space-x-16 flex-wrap">
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w5} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w6} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w7} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w8} alt="" className="w-full h-full rounded-lg " />
+          </div>
         </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w3} alt="" className="w-full h-full rounded-lg " />
+        <div className="flex space-x-16 flex-wrap">
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w9} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w10} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w11} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w12} alt="" className="w-full h-full rounded-lg " />
+          </div>
         </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w4} alt="" className="w-full h-full rounded-lg " />
+        <div className="flex space-x-16 flex-wrap">
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w13} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w1} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w7} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w5} alt="" className="w-full h-full rounded-lg " />
+          </div>
         </div>
-      </div>
-      <div className="flex space-x-16">
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w5} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w6} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w7} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w8} alt="" className="w-full h-full rounded-lg " />
-        </div>
-      </div>
-      <div className="flex space-x-16">
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w9} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w10} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w11} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w12} alt="" className="w-full h-full rounded-lg " />
-        </div>
-      </div>
-      <div className="flex space-x-16">
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w13} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w1} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w7} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w5} alt="" className="w-full h-full rounded-lg " />
-        </div>
-      </div>
-      <div className="flex space-x-16">
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w10} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w3} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w16} alt="" className="w-full h-full rounded-lg " />
-        </div>
-        <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7">
-          <img src={w13} alt="" className="w-full h-full rounded-lg " />
+        <div className="flex space-x-16 flex-wrap">
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w10} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w3} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w16} alt="" className="w-full h-full rounded-lg " />
+          </div>
+          <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+            <img src={w13} alt="" className="w-full h-full rounded-lg " />
+          </div>
         </div>
       </div>
     </div>

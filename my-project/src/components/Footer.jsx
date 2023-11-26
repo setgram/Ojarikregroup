@@ -34,16 +34,28 @@ export default function Footer() {
           </h1>
           <ul>
             <a href="#">
-              <li onClick={() => navigate("/")}>Home</li>
+              <li className="cursor-pointer" onClick={() => navigate("/")}>
+                Home
+              </li>
             </a>
             <a href="#">
-              <li>Products</li>
+              <li
+                className="cursor-pointer"
+                onClick={() => navigate("/products")}
+              >
+                Products
+              </li>
             </a>
             <a href="#">
-              <li>FAQs</li>
+              <li className="cursor-pointer">FAQs</li>
             </a>
             <a href="#">
-              <li>About Us</li>
+              <li
+                className="cursor-pointer"
+                onClick={() => navigate("/about-us")}
+              >
+                About Us
+              </li>
             </a>
           </ul>
           <div className="flex items-center gap-1">
