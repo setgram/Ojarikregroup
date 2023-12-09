@@ -18,8 +18,7 @@ export default function Footer() {
           <p className="text-sm max-w-md">
             Ojarikre Group is a multinational <br />
             company that deals on tools <br />
-            for construction and as well appliances. Excellent is our watch
-            word.
+            for construction and as well appliances.
           </p>
           <br />
           <p>
