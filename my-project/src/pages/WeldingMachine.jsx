@@ -26,7 +26,7 @@ export default function WeldingMachine() {
         Welding Machines
       </h1>
       <div className="flex flex-wrap">
-        <div className="flex space-x-16 flex-wrap">
+        <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
           <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
             <img src={w1} alt="" className="w-full h-full rounded-lg " />
           </div>
@@ -40,7 +40,7 @@ export default function WeldingMachine() {
             <img src={w4} alt="" className="w-full h-full rounded-lg " />
           </div>
         </div>
-        <div className="flex space-x-16 flex-wrap">
+        <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
           <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
             <img src={w5} alt="" className="w-full h-full rounded-lg " />
           </div>
@@ -54,7 +54,7 @@ export default function WeldingMachine() {
             <img src={w8} alt="" className="w-full h-full rounded-lg " />
           </div>
         </div>
-        <div className="flex space-x-16 flex-wrap">
+        <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
           <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
             <img src={w9} alt="" className="w-full h-full rounded-lg " />
           </div>
@@ -68,7 +68,7 @@ export default function WeldingMachine() {
             <img src={w12} alt="" className="w-full h-full rounded-lg " />
           </div>
         </div>
-        <div className="flex space-x-16 flex-wrap">
+        <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
           <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
             <img src={w13} alt="" className="w-full h-full rounded-lg " />
           </div>
@@ -82,7 +82,7 @@ export default function WeldingMachine() {
             <img src={w5} alt="" className="w-full h-full rounded-lg " />
           </div>
         </div>
-        <div className="flex space-x-16 flex-wrap">
+        <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
           <div className="h-60 w-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
             <img src={w10} alt="" className="w-full h-full rounded-lg " />
           </div>

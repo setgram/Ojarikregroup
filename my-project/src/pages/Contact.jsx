@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-
 import banner from "../assets/banner.jpg";
-
 import { AiOutlineInstagram } from "react-icons/ai";
 import { RiTwitterXFill } from "react-icons/ri";
 import { FiFacebook } from "react-icons/fi";
@@ -14,6 +12,8 @@ export default function Contact() {
     message: "",
   });
 
+  const [formError, setFormError] = useState(false);
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -22,6 +22,12 @@ export default function Contact() {
   };
 
   const submitToWhatsApp = () => {
+    // Check if all required fields are filled
+    if (!formData.name || !formData.email || !formData.message) {
+      setFormError(true);
+      return;
+    }
+
     // Get the form data
     const { name, email, message } = formData;
     const whatsappLink = `https://wa.me/2348107193064?text=${encodeURIComponent(
@@ -30,7 +36,16 @@ export default function Contact() {
 
     // Open WhatsApp link in a new tab or window
     window.open(whatsappLink, "_blank");
+
+    // Reset form and error state after submission
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
+    setFormError(false);
   };
+
   return (
     <>
       <img src={banner} alt="" className="h-44 w-full bg-contain" />
@@ -45,7 +60,7 @@ export default function Contact() {
           <p className="mb-5">Delta State</p>
           <p className="mb-5">Call Us: 08107193064</p>
           <p>We are open from Monday-Friday</p>
-          <p className="mb-8">08:00am - 05:00pm</p>
+          <p className="mb-8">08:00am - 05:00pm</p>{" "}
           <p className="font-bold mb-3">Share on</p>
           <div className="flex gap-2 w-20 h-2 mb-9">
             <AiOutlineInstagram />
@@ -75,6 +90,7 @@ export default function Contact() {
               name="email"
               value={formData.email}
               onChange={handleChange}
+              required
             />
             <textarea
               cols="30"
@@ -87,6 +103,11 @@ export default function Contact() {
               onChange={handleChange}
               required
             />
+            {formError && (
+              <p className="text-red-500 text-sm mb-3">
+                Please fill in all required fields.
+              </p>
+            )}
             <button
               onClick={() => submitToWhatsApp()}
               type="button"

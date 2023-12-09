@@ -34,7 +34,7 @@ export default function PowerTools() {
         Power Tools
       </h1>
       <div className="flex flex-wrap">
-        <div className="flex space-x-16 flex-wrap">
+        <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
           <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
             <img src={pw1} alt="" className="w-full h-full rounded-lg " />
           </div>
@@ -48,7 +48,7 @@ export default function PowerTools() {
             <img src={pw4} alt="" className="w-full h-full rounded-lg " />
           </div>
         </div>
-        <div className="flex space-x-16 flex-wrap">
+        <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
           <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
             <img src={pw5} alt="" className="w-full h-full rounded-lg " />
           </div>
@@ -62,7 +62,7 @@ export default function PowerTools() {
             <img src={pw8} alt="" className="w-full h-full rounded-lg " />
           </div>
         </div>
-        <div className="flex space-x-16 flex-wrap">
+        <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
           <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
             <img src={pw9} alt="" className="w-full h-full rounded-lg " />
           </div>
@@ -76,7 +76,7 @@ export default function PowerTools() {
             <img src={pw13} alt="" className="w-full h-full rounded-lg " />
           </div>
         </div>
-        <div className="flex space-x-16 flex-wrap">
+        <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
           <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
             <img src={pw14} alt="" className="w-full h-full rounded-lg " />
           </div>
@@ -90,7 +90,7 @@ export default function PowerTools() {
             <img src={pw17} alt="" className="w-full h-full rounded-lg " />
           </div>
         </div>
-        <div className="flex space-x-16 flex-wrap">
+        <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
           <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
             <img src={pw18} alt="" className="w-full h-full rounded-lg " />
           </div>
@@ -104,7 +104,7 @@ export default function PowerTools() {
             <img src={pw21} alt="" className="w-full h-full rounded-lg " />
           </div>
         </div>
-        <div className="flex space-x-16 flex-wrap ">
+        <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
           <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
             <img src={pw22} alt="" className="w-full h-full rounded-lg " />
           </div>

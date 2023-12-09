@@ -54,7 +54,7 @@ export default function Header() {
               className="text-white focus:outline-none"
             >
               {isMobileMenuOpen ? (
-                <GiCancel className="h-6 w-6" />
+                <GiCancel className="absolute top-2 right-4 h-6 w-6 cursor-pointer text-white z-50" />
               ) : (
                 <GiHamburgerMenu className="h-6 w-6" />
               )}

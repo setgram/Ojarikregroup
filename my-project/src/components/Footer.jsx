@@ -12,14 +12,14 @@ export default function Footer() {
   const navigate = useNavigate();
   return (
     <div>
-      <footer className="bg-[#100B20] text-white p-16 block lg:flex justify-between text-justify space-y-4 lg:space-y-0">
+      <footer className="bg-[#100B20] text-white p-8 lg:p-16 block lg:flex justify-between text-justify space-y-4 lg:space-y-0">
         <div>
           <img src={logo} alt="" className="mb-5" />
-          <p>
-            Ojarikre Group is a multinational company that deals on tools <br />
+          <p className="text-sm max-w-md">
+            Ojarikre Group is a multinational <br />
+            company that deals on tools <br />
             for construction and as well appliances. Excellent is our watch
-            word. <br />
-            We have been in business for over 30 years and counting.{" "}
+            word.
           </p>
           <br />
           <p>
@@ -29,7 +29,7 @@ export default function Footer() {
           </p>
         </div>
         <div>
-          <h1 className="text-2xl text-[#D434FE] font-bold mb-3">
+          <h1 className="lg:text-2xl text-base text-[#D434FE] font-bold mb-3">
             Useful Links
           </h1>
           <ul>
@@ -69,21 +69,23 @@ export default function Footer() {
           </div>
         </div>
         <br />
-        <div>
+        <div className="text-sm">
           <h1 className="text-2xl text-[#D434FE] font-bold">Contact Us</h1>
           <br />
-          <div className="flex gap-4 items-center">
+          <div className="flex gap-3 items-center">
             <BsFillTelephoneFill />
             <p>+234 8107193064</p>
           </div>
           <br />
 
-          <div className="flex gap-4">
+          <div className="flex gap-3">
             <CiLocationOn />
             <p>
-              No. 44 Cemetery Road <br />
-              Off Ogodo Rd Junction <br />
-              Sapele Delta State
+              44 Cemetery
+              <br />
+              Road,
+              <br />
+              Sapele
             </p>
             <p>
               NDDC Road, Amukpe <br />

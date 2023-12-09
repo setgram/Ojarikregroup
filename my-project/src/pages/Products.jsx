@@ -102,6 +102,14 @@ import s12 from "../assets/s12.jpg";
 import rf1 from "../assets/rf1.jpg";
 import rf2 from "../assets/rf2.jpg";
 import rf3 from "../assets/rf3.jpg";
+import mx1 from "../assets/max1.jpg";
+import mx2 from "../assets/max2.jpg";
+import mx3 from "../assets/max3.jpg";
+import mx4 from "../assets/max4.jpg";
+import mx5 from "../assets/max5.jpg";
+import mx6 from "../assets/max6.jpg";
+import mx7 from "../assets/max7.jpg";
+import mx8 from "../assets/max8.jpg";
 
 export default function Products() {
   return (
@@ -116,33 +124,7 @@ export default function Products() {
           FEATURE PRODUCTS
         </h2>
         <div className="flex flex-wrap">
-          <div className="flex space-x-16 flex-wrap">
-            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img
-                src={imageone}
-                alt=""
-                className="w-full h-full rounded-lg "
-              />
-            </div>
-            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img
-                src={imagetwo}
-                alt=""
-                className="w-full h-full rounded-lg "
-              />
-            </div>
-            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img
-                src={imagethree}
-                alt=""
-                className="w-full h-full rounded-lg "
-              />
-            </div>
-            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={banner} alt="" className="w-full h-full rounded-lg " />
-            </div>
-          </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={pw1} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -156,7 +138,7 @@ export default function Products() {
               <img src={pw4} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={pw5} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -170,7 +152,7 @@ export default function Products() {
               <img src={pw8} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={pw9} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -184,7 +166,7 @@ export default function Products() {
               <img src={pw13} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={pw14} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -198,7 +180,7 @@ export default function Products() {
               <img src={pw17} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={pw18} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -212,7 +194,7 @@ export default function Products() {
               <img src={pw21} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={pw22} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -226,7 +208,7 @@ export default function Products() {
               <img src={pw25} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={w1} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -240,7 +222,7 @@ export default function Products() {
               <img src={w4} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={w5} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -254,7 +236,7 @@ export default function Products() {
               <img src={w8} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={w9} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -268,7 +250,7 @@ export default function Products() {
               <img src={w12} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={w13} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -282,7 +264,7 @@ export default function Products() {
               <img src={w5} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={w10} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -296,7 +278,7 @@ export default function Products() {
               <img src={w13} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={g1} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -304,41 +286,41 @@ export default function Products() {
               <img src={g2} alt="" className="w-full h-full rounded-lg " />
             </div>
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={g3} alt="" className="w-full h-full rounded-lg " />
+              <img src={mx1} alt="" className="w-full h-full rounded-lg " />
             </div>
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={g4} alt="" className="w-full h-full rounded-lg " />
-            </div>
-          </div>
-          <div className="flex space-x-16 flex-wrap">
-            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={g5} alt="" className="w-full h-full rounded-lg " />
-            </div>
-            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={g6} alt="" className="w-full h-full rounded-lg " />
-            </div>
-            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={g7} alt="" className="w-full h-full rounded-lg " />
-            </div>
-            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={g8} alt="" className="w-full h-full rounded-lg " />
+              <img src={mx2} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={g9} alt="" className="w-full h-full rounded-lg " />
+              <img src={mx8} alt="" className="w-full h-full rounded-lg " />
             </div>
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={g10} alt="" className="w-full h-full rounded-lg " />
+              <img src={mx1} alt="" className="w-full h-full rounded-lg " />
             </div>
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={g11} alt="" className="w-full h-full rounded-lg " />
+              <img src={mx3} alt="" className="w-full h-full rounded-lg " />
+            </div>
+            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+              <img src={mx2} alt="" className="w-full h-full rounded-lg " />
+            </div>
+          </div>
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
+            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+              <img src={mx7} alt="" className="w-full h-full rounded-lg " />
+            </div>
+            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+              <img src={mx4} alt="" className="w-full h-full rounded-lg " />
+            </div>
+            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+              <img src={mx8} alt="" className="w-full h-full rounded-lg " />
             </div>
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={g12} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={g13} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -352,12 +334,12 @@ export default function Products() {
               <img src={g16} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={g17} alt="" className="w-full h-full rounded-lg " />
+              <img src={mx2} alt="" className="w-full h-full rounded-lg " />
             </div>
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
-              <img src={g18} alt="" className="w-full h-full rounded-lg " />
+              <img src={mx5} alt="" className="w-full h-full rounded-lg " />
             </div>
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={g19} alt="" className="w-full h-full rounded-lg " />
@@ -366,7 +348,7 @@ export default function Products() {
               <img src={g20} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={tv1} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -380,7 +362,7 @@ export default function Products() {
               <img src={tv4} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={tv5} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -394,7 +376,7 @@ export default function Products() {
               <img src={ac2} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={ac3} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -408,7 +390,7 @@ export default function Products() {
               <img src={ac6} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={ac7} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -422,7 +404,7 @@ export default function Products() {
               <img src={gc3} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={mw1} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -436,7 +418,7 @@ export default function Products() {
               <img src={mw4} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={mw1} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -450,7 +432,7 @@ export default function Products() {
               <img src={mw4} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={mw5} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -464,7 +446,7 @@ export default function Products() {
               <img src={rf3} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={s1} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -478,7 +460,7 @@ export default function Products() {
               <img src={s4} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={s5} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -492,7 +474,7 @@ export default function Products() {
               <img src={s8} alt="" className="w-full h-full rounded-lg " />
             </div>
           </div>
-          <div className="flex space-x-16 flex-wrap">
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={s9} alt="" className="w-full h-full rounded-lg " />
             </div>
@@ -504,6 +486,24 @@ export default function Products() {
             </div>
             <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
               <img src={s12} alt="" className="w-full h-full rounded-lg " />
+            </div>
+          </div>
+          <div className="flex sm:gap-5 md:space-x-5 lg:space-x-5 flex-wrap">
+            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+              <img src={imageone} alt="" className="w-full h-full rounded-lg" />
+            </div>
+            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+              <img src={imagetwo} alt="" className="w-full h-full rounded-lg" />
+            </div>
+            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+              <img
+                src={imagethree}
+                alt=""
+                className="w-full h-full rounded-lg "
+              />
+            </div>
+            <div className="h-60 basis-60 p-5 rounded-lg bg-slate-400 mb-7 flex-grow">
+              <img src={banner} alt="" className="w-full h-full rounded-lg" />
             </div>
           </div>
         </div>

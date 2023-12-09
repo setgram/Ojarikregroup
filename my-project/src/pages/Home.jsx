@@ -18,7 +18,7 @@ export default function Home() {
           className="bg-cover bg-center h-60 md:w-[48%] mt-10 pt-10 px-10 transition-all ease-in-out hover:transform hover:scale-105 rounded"
           style={{ backgroundImage: `url(${sectionone})` }}
         >
-          <h2 className="text-5xl text-white text-right">Drilling Machine</h2>
+          <h2 className="text-3xl text-white text-left">Drilling Machine</h2>
           <p className="text-lg text-left text-yellow-500">
             Your One Stop Tools and Appliances Station
           </p>
@@ -34,7 +34,7 @@ export default function Home() {
           className="bg-cover bg-center h-60 md:w-[48%] mt-10 pt-10 px-10 transition-all ease-in-out hover:transform hover:scale-105 rounded"
           style={{ backgroundImage: `url(${sectiontwo})` }}
         >
-          <h2 className="text-5xl text-white">Handy Man Tools</h2>
+          <h2 className="text-3xl text-white">Handy Man Tools</h2>
           <p className="text-lg text-yellow-500">
             Your One Stop Tools and Appliances Station
           </p>
